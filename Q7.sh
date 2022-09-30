@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-# Exercício 7
-
 [ $# -ne 3 ] && echo "Parâmetros inseridos incorretamente!" && exit
 
 data1=$1
