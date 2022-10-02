@@ -1,9 +1,9 @@
 # UFCA - Laboratorio 1
 Sistema de navegação entre diferentes algoritmos básicos
 
-=================
-  COMO EXECUTAR
-=================
+
+# COMO EXECUTAR
+
 
 - Baixe a versão que você deseja a partir do menu de "releases" do github
 
