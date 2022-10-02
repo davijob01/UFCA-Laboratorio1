@@ -3,11 +3,11 @@
 word=oi
 arr=()
 
-while [ "$word" != 'sair' ]; do
-	echo && echo "Digite o que quiser:"
+while [ "$word" != 's' ]; do
+	echo && echo "Digite s para sair ou qualquer palavra para continuar:"
 	read word && clear
 
-	[ "$word" == 'sair' ] && echo "Bay Bay" && exit
+	[ "$word" == 's' ] && clear && exit
 
 	arr+=("$word")
 	printf "%s\n" "${arr[@]}" | sort

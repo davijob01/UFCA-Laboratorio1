@@ -1,18 +1,12 @@
 #!/bin/bash
 
-re="^[0-9]+$"
+echo "PRIMEIRA VARIAVEL"
+read var1
 
-if [ $# -ne 2 ]
-then
-    echo "ERRO! APENAS DOIS PARAMETROS."
-      exit
-fi
+echo "SEGUNDA VARIAVEL"
+read var2
 
-if ! [[ $1 =~ $re && $2 =~ $re ]]
-then
-    echo "ERRO! ENTRADA INVALIDA!"
-    exit
-fi
+set -- "$var1" "$var2"
 
 if [ $1 -lt $2 ]
 then

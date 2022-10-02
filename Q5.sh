@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ $# -ne 1 ]
-then
-        echo "Entrada inválida por excesso de parâmetros!" && exit
-fi
+echo "Digite a entrada:"
+read var1
+
+set -- "$var1"
 
 ! [ -f $1 ] && echo "Arquivo não existe!" && exit
 

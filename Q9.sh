@@ -1,3 +1,6 @@
-#!/bin/bash.
+#!/bin/bash
 
-printf "%s\n" $@ | sort
+echo "DIGITE AS PALAVRAS DO CONJUNTO:"
+read conjunto
+
+printf "%s\n" ${conjunto[@]} | sort
