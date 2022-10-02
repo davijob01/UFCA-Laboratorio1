@@ -10,3 +10,10 @@ Sistema de navegação entre diferentes algoritmos básicos
 - Extraia os arquivos
 
 - Execute o arquivo system.sh
+
+
+# PARTICIPANTES
+
+ - Davi Henrique Job Rodrigues
+  
+ - Luann Alves Pereira De Lima
