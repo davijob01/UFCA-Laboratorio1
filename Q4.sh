@@ -1,15 +1,10 @@
 #!/bin/bash
 
-re='^[0-9]+$'
+echo "Digite a entrada:"
+read var1
 
-if ! [[ $1 =~ $re ]]
-then
-        echo "Entrada invalida!"
-        exit
-fi
+set -- "$var1"
 
-[ $# -ne 1 ] && echo "Argumentos exedentes!" && exit
-
-echo "Sequência de pares: "
+echo "Sequência de pares entre 0 e $var1: "
 seq -s " " 0 2 $1
 
